@@ -19,7 +19,7 @@ function App() {
           <div className='button-menu'>
             <button className='header-menu'>About</button>
             <button className='header-menu'>GitHub</button>
-            <button className='header-menu'>Google</button>
+            <button className='header-menu'>Notebooks</button>
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@ function App() {
     return (
       <p className='desc'>
         {/* Deskripsi judul ditulis disini... */}
-        Ini adalah sebuah website Question & Answering yang kami buat untuk memenuhi tugas UAS dari matakuliah Pemrosesan Bahasa Alami. p
+        Ini adalah sebuah website Question & Answering yang kami buat untuk memenuhi tugas UAS dari matakuliah Pemrosesan Bahasa Alami.
       </p>
     );
   }
@@ -112,10 +112,15 @@ function App() {
   }
 
 
+  function MouseScroll() {
+    //mouse on click scroll func
+  }
+
+
   function Mouse() {
     return (
       <div className='mouse_scroll'>
-        <div className='mouse'>
+        <div className='mouse' onClick={MouseScroll}>
           <div className='wheel'/>
         </div>
         <div>

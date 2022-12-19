@@ -2,18 +2,6 @@ import streamlit as st
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 import requests
 import logging
-from PIL import Image
-
-
-# img = Image.open('img/qa_logo.png')
-
-# st.beta_set_page_config(
-#     page_title = 'QA',
-#     page_icon = img, 
-#     layout = "centered")
-
-# PAGE_CONFIG = {"page_title":"QA", "page_icon":"img", "layout":"centered"}
-# st.beta_set_page_config(**PAGE_CONFIG)
 
 
 # interact with FastAPI endpoint
